@@ -54,6 +54,8 @@ abstract class VideoRenderer {
 
   int get videoHeight;
 
+  RTCVideoValue get videoValue => RTCVideoValue();
+
   bool get muted;
   set muted(bool mute);
 

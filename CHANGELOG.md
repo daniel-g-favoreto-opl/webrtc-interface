@@ -1,6 +1,43 @@
 # Changelog
 
 --------------------------------------------
+[1.2.1+hotfix.1] - 2025-02-023
+
+* fix: make videoValue non nullable (#30)
+* fix: make optional cname in RTCRTCPParameters nullable (#27)
+
+[1.2.0] - 2024-04-08
+
+* feat: add keyRingSize/discardFrameWhenCryptorNotReady to KeyProviderOptions.
+
+[1.1.2] - 2023-09-14
+
+* Add more frame cryptor api.
+
+[1.1.1] - 2023-08-14
+
+* Add more async methods.
+
+[1.1.0] - 2023-06-29
+
+* Add FrameCryptor interface.
+
+[1.0.13] - 2023-04-14
+
+* Add RTCDegradationPreference to RTCRtpParameters.
+
+[1.0.12] - 2023-04-10
+
+* Add addStreams to RTCRtpSender.
+
+[1.0.11] - 2023-01-30
+
+* Add RTCRtpCapabilities interface.
+
+[1.0.10] - 2022-11-12
+
+* Change MediaStream.clone to async.
+
 [1.0.9] - 2022-11-02
 
 * Update MediaRecorder interface.
